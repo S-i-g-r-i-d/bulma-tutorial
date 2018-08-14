@@ -1,7 +1,7 @@
-<section class="hero">
+<section [style.background-color]="logo.colorString" [class]="'hero ' + logo.colorClass">
   <div class="hero-body">
     <div class="container">
-      <figure class="image center">
+      <figure [class]="'image ' + logo.alignment">
         <img [src]="logo.imgPath" style="max-width: 160px;">
       </figure>
     </div>

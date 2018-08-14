@@ -1,0 +1,9 @@
+<section class="section">
+  <div class="container">
+    <div *ngFor="let mediacard of mediacards" class="columns is-multiline">
+      <div class="column is-one-third">
+        <app-multiline-media [mediacard]="mediacard"></app-multiline-media>
+      </div>
+    </div>
+  </div>
+</section>
